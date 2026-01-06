@@ -177,7 +177,7 @@ export default function Home() {
             </div>
             <WhatsAppButton 
               size="sm"
-              phoneNumber="1234567890"
+              phoneNumber="917619213992"
               message="Hi! I would like to book an appointment for makeup services."
             />
           </div>
