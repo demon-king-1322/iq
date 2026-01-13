@@ -94,7 +94,7 @@ const services = [
   { 
     name: 'Airbrush makeup look', 
     description: 'Professional, flawless finish',
-    image: '/assets/images/service-airbrush.jpg',
+    image: '/assets/images/Air brush.jpg',
     details: 'Airbrush makeup delivers a professional, flawless finish that lasts up to 24 hours. Using compressed air and specialized formulas, we create a lightweight, breathable look that photographs beautifully and withstands any conditions.'
   },
   { 
