@@ -345,56 +345,9 @@ export default function Home() {
               Explore our collection of stunning makeup looks and transformations
             </p>
             
-            {/* Category Filter */}
-            <div className="flex flex-wrap justify-center gap-3">
-              <Button
-                variant={selectedPortfolioCategory === null ? 'default' : 'outline'}
-                onClick={() => setSelectedPortfolioCategory(null)}
-                className="rounded-full"
-              >
-                All
-              </Button>
-              <Button
-                variant={selectedPortfolioCategory === 'Bridal' ? 'default' : 'outline'}
-                onClick={() => setSelectedPortfolioCategory('Bridal')}
-                className="rounded-full"
-              >
-                Bridal
-              </Button>
-              <Button
-                variant={selectedPortfolioCategory === 'Editorial' ? 'default' : 'outline'}
-                onClick={() => setSelectedPortfolioCategory('Editorial')}
-                className="rounded-full"
-              >
-                Editorial
-              </Button>
-              <Button
-                variant={selectedPortfolioCategory === 'Natural' ? 'default' : 'outline'}
-                onClick={() => setSelectedPortfolioCategory('Natural')}
-                className="rounded-full"
-              >
-                Natural
-              </Button>
-              <Button
-                variant={selectedPortfolioCategory === 'Glam' ? 'default' : 'outline'}
-                onClick={() => setSelectedPortfolioCategory('Glam')}
-                className="rounded-full"
-              >
-                Glam
-              </Button>
-              <Button
-                variant={selectedPortfolioCategory === 'Vintage' ? 'default' : 'outline'}
-                onClick={() => setSelectedPortfolioCategory('Vintage')}
-                className="rounded-full"
-              >
-                Vintage
-              </Button>
-            </div>
-          </div>
-
           {/* Portfolio Grid */}
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-            {filteredPortfolio.map((item, index) => (
+            {portfolioItems.map((item, index) => (
               <Card
                 key={index}
                 className="group overflow-hidden hover:shadow-xl transition-all duration-300 hover:-translate-y-1 cursor-pointer"
