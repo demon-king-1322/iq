@@ -511,7 +511,7 @@ I focus on skin-first, well-balanced makeup that enhances natural features rathe
                 </div>
                 <div>
                   <h3 className="font-semibold text-lg mb-2">Phone</h3>
-                  <p className="text-muted-foreground">+1 234 567 890</p>
+                  <p className="text-muted-foreground">+91 7619213992</p>
                 </div>
               </CardContent>
             </Card>
@@ -553,7 +553,7 @@ I focus on skin-first, well-balanced makeup that enhances natural features rathe
                 <div className="flex justify-center">
                   <WhatsAppButton
                     size="lg"
-                    phoneNumber="1234567890"
+                    phoneNumber="7619213992"
                     message={getWhatsAppMessage()}
                   />
                 </div>
