@@ -46,7 +46,7 @@ const services = [
   { 
     name: 'Editorial/high-fashion makeup', 
     description: 'Bold, artistic, and runway-ready',
-    image: '/assets/images/service-editorial.jpg',
+    image: '/assets/images/Bold look.jpg',
     details: 'Push creative boundaries with our editorial makeup services. From avant-garde runway looks to high-fashion magazine spreads, we bring artistic vision to life with bold colors, geometric shapes, and innovative techniques.'
   },
   { 
