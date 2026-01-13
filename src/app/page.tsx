@@ -106,12 +106,12 @@ const services = [
 ]
 
 const portfolioItems = [
-  { title: 'Bridal Elegance', category: 'Bridal', image: '/assets/images/portfolio-bridal.jpg' },
-  { title: 'Editorial Artistry', category: 'Editorial', image: '/assets/images/portfolio-editorial.jpg' },
-  { title: 'Natural Beauty', category: 'Natural', image: '/assets/images/portfolio-natural.jpg' },
-  { title: 'Glamour Night', category: 'Glam', image: '/assets/images/portfolio-glam.jpg' },
-  { title: 'Photoshoot Perfect', category: 'Photoshoot', image: '/assets/images/portfolio-photoshoot.jpg' },
-  { title: 'Vintage Classic', category: 'Vintage', image: '/assets/images/portfolio-vintage.jpg' },
+  { title: 'Bridal Elegance', category: 'Bridal', image: '/assets/images/img 1.jpg' },
+  { title: 'Editorial Artistry', category: 'Editorial', image: '/assets/images/img 2.jpg' },
+  { title: 'Natural Beauty', category: 'Natural', image: '/assets/images/img 3.jpg' },
+  { title: 'Glamour Night', category: 'Glam', image: '/assets/images/img 4.jpg' },
+  { title: 'Photoshoot Perfect', category: 'Photoshoot', image: '/assets/images/img 5.jpg' },
+  { title: 'Vintage Classic', category: 'Vintage', image: '/assets/images/img 6.jpg' },
 ]
 
 export default function Home() {
