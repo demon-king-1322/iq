@@ -219,7 +219,7 @@ export default function Home() {
               </Button>
               <WhatsAppButton 
                 size="lg"
-                phoneNumber="1234567890"
+                phoneNumber="7619213992"
                 message="Hi! I would like to book an appointment for makeup services."
                 className="bg-white hover:bg-white/90 text-primary text-base px-8 py-6"
               />
@@ -324,7 +324,7 @@ export default function Home() {
                 <div className="flex justify-center">
                   <WhatsAppButton
                     size="lg"
-                    phoneNumber="1234567890"
+                    phoneNumber="7619213992"
                     message={getWhatsAppMessage()}
                   />
                 </div>
