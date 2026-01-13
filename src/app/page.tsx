@@ -64,7 +64,7 @@ const services = [
   { 
     name: 'Mature skin Makeup', 
     description: 'Enhancing natural beauty at any age',
-    image: '/assets/images/service-mature.jpg',
+    image: '/assets/images/mature skin look.jpg',
     details: 'Mature skin requires special care and technique. Our mature skin makeup focuses on hydration, luminosity, and lifting techniques that enhance your natural beauty while addressing fine lines and age spots.'
   },
   { 
@@ -88,7 +88,7 @@ const services = [
   { 
     name: 'Natural makeup look', 
     description: 'Effortless and everyday beautiful',
-    image: '/assets/images/service-natural.jpg',
+    image: '/assets/images/Natural look.jpg',
     details: 'Our natural makeup look enhances your features with subtle, neutral tones. Perfect for everyday wear, this style provides a polished appearance that looks like you woke up looking this good.'
   },
   { 
@@ -100,7 +100,7 @@ const services = [
   { 
     name: 'Dramatic makeup look', 
     description: 'Striking and statement-making',
-    image: '/assets/images/service-dramatic.jpg',
+    image: '/assets/images/Dramatic.jpg',
     details: 'Make a powerful statement with dramatic makeup. This bold style features intense contouring, striking eye makeup, and powerful lip colors—perfect for Halloween, costume parties, and events where you want to transform completely.'
   },
 ]
