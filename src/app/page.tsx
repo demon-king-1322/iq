@@ -34,7 +34,7 @@ const services = [
   { 
     name: 'Bridal makeup look', 
     description: 'Timeless elegance for your special day',
-    image: '/assets/images/service-Bridal makeup.PNG',
+    image: '/assets/images/Bridal makeup.PNG',
     details: 'Your wedding day deserves perfection. Our bridal makeup is designed to last through tears, dancing, and countless photos while maintaining a timeless, elegant look that enhances your natural beauty and complements your wedding theme.'
   },
   { 
@@ -70,7 +70,7 @@ const services = [
   { 
     name: 'Bold makeup look', 
     description: 'Confident, vibrant, and eye-catching',
-    image: '/assets/images/service-bold.jpg',
+    image: '/assets/images/Bold look.jpg',
     details: 'Make a statement with bold makeup. Featuring vibrant eyeshadows, daring lip colors, and creative eyeliner designs, this look is for those who want to express confidence and individuality through their makeup.'
   },
   { 
