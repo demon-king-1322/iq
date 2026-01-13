@@ -153,7 +153,7 @@ export default function Home() {
           <div className="flex items-center justify-between h-16">
             <div className="flex items-center gap-2">
               <img
-                src="/assets/images/pro.jpg"
+                src="/assets/images/IQ prof.jpg"
                 alt="Professional Makeup Artist"
                 className="w-12 h-12 rounded-full object-cover"
               />
