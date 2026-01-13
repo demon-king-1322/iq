@@ -111,7 +111,7 @@ const portfolioItems = [
   { title: 'Natural Beauty', category: 'Natural', image: '/assets/images/img 3.jpg' },
   { title: 'Glamour Night', category: 'Glam', image: '/assets/images/img 4.jpg' },
   { title: 'Photoshoot Perfect', category: 'Photoshoot', image: '/assets/images/img 5.jpg' },
-  { title: 'Vintage Classic', category: 'Vintage', image: '/assets/images/img 6.jpg' },
+  { title: 'Vintage Classic', category: 'Vintage', image: '/assets/images/img 7.jpg' },
 ]
 
 export default function Home() {
@@ -334,58 +334,40 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Portfolio Section */}
-      <section id="portfolio" className="py-20">
-        <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center max-w-3xl mx-auto mb-12">
-            <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-6">
-              Our Portfolio
-            </h2>
-            <p className="text-base sm:text-lg text-muted-foreground mb-8">
-              Explore our collection of stunning makeup looks and transformations
-            </p>
-            </div>
-            
-          {/* Portfolio Grid */}
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-            {portfolioItems.map((item, index) => (
-              <Card
-                key={index}
-                className="group overflow-hidden hover:shadow-xl transition-all duration-300 hover:-translate-y-1 cursor-pointer"
-              >
-                <div className="relative aspect-[4/5] overflow-hidden bg-muted">
-                  <img
-  src={item.image}
-  alt={item.title}
-  className="w-full h-full object-contain transition-transform duration-500 group-hover:scale-105"
-/>
-                  <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                    <div className="absolute bottom-0 left-0 right-0 p-6 text-white">
-                      <h3 className="text-xl font-bold mb-2">{item.title}</h3>
-                      <p className="text-sm text-white/80">{item.category}</p>
-                    </div>
-                  </div>
-                </div>
-                <CardContent className="p-4">
-                  <div className="flex items-center justify-between">
-                    <div>
-                      <h3 className="font-semibold text-lg">{item.title}</h3>
-                      <p className="text-sm text-muted-foreground">{item.category}</p>
-                    </div>
-                    <Button
-                      variant="ghost"
-                      size="sm"
-                      className="text-primary hover:text-primary/80"
-                    >
-                      View
-                    </Button>
-                  </div>
-                </CardContent>
-              </Card>
-            ))}
+   {/* Portfolio Section */}
+<section id="portfolio" className="py-20">
+  <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+
+    {/* Heading */}
+    <div className="text-center max-w-3xl mx-auto mb-12">
+      <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-6">
+        Our Portfolio
+      </h2>
+      <p className="text-base sm:text-lg text-muted-foreground mb-8">
+        Explore our collection of stunning makeup looks and transformations
+      </p>
+    </div>
+
+    {/* Portfolio Grid */}
+    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+      {portfolioItems.map((item, index) => (
+        <Card
+          key={index}
+          className="group overflow-hidden hover:shadow-xl transition-all duration-300 hover:-translate-y-1 cursor-pointer"
+        >
+          <div className="relative aspect-[4/5] overflow-hidden bg-muted">
+            <img
+              src={item.image}
+              alt={item.title}
+              className="w-full h-full object-contain transition-transform duration-500 group-hover:scale-105"
+            />
           </div>
-        </div>
-      </section>
+        </Card>
+      ))}
+    </div>
+
+  </div>
+</section>
 
       {/* About Section */}
       <section id="about" className="py-20 bg-gradient-to-b from-muted/30 to-background">
