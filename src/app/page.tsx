@@ -76,13 +76,13 @@ const services = [
   { 
     name: 'Vintage/Retro Makeup', 
     description: 'Classic looks from past decades',
-    image: '/assets/images/service-vintage.jpg',
+    image: '/assets/images/vintage retro.jpg',
     details: 'Transport yourself to another era with vintage makeup looks. From 1920s flapper elegance to 1950s Hollywood glamour and 1980s bold colors, we recreate authentic vintage styles for themed events and special occasions.'
   },
   { 
     name: 'HD makeup look', 
     description: 'Flawless in high definition',
-    image: '/assets/images/service-hd.jpg',
+    image: '/assets/images/HD makeup look.jpg',
     details: 'HD makeup is designed to look flawless under high-definition cameras and video. Using airbrush techniques and specialized products, we create a smooth, pore-less finish that looks perfect in 4K and beyond.'
   },
   { 
