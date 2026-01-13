@@ -344,6 +344,7 @@ export default function Home() {
             <p className="text-base sm:text-lg text-muted-foreground mb-8">
               Explore our collection of stunning makeup looks and transformations
             </p>
+            </div>
             
           {/* Portfolio Grid */}
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
