@@ -459,7 +459,7 @@ I focus on skin-first, well-balanced makeup that enhances natural features rathe
                 </div>
                 <div>
                   <h3 className="font-semibold text-lg mb-2">Email</h3>
-                  <p className="text-muted-foreground"><a href="mailto:hello@iqramakeup.com">hello@iqramakeup.com</a></p>
+                  <p className="text-muted-foreground"><a href="mailto:iqraarzoo.makeup@gmail.com">iqraarzoo.makeup@gmail.com</a></p>
                 </div>
               </CardContent>
             </Card>
