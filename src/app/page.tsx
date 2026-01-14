@@ -380,7 +380,7 @@ export default function Home() {
               <p className="text-base sm:text-lg text-muted-foreground mb-6">
                 Professional makeup artist with 9 years of experience, and my work is deeply rooted in the belief that makeup should feel like you—only more confident.
 
-My journey into makeup wasn’t just about learning techniques; it was about understanding faces, skin, and the emotions that come with important moments. Over the years, I’ve learned that great makeup isn’t about following trends blindly—it’s about listening, observing, and creating a look that feels comfortable, effortless, and true to the person wearing it.
+My journey into makeup was not just about learning techniques; it was about understanding faces, skin, and the emotions that come with important moments. Over the years, I’ve learned that great makeup isn’t about following trends blindly—it’s about listening, observing, and creating a look that feels comfortable, effortless, and true to the person wearing it.
 
 I focus on skin-first, well-balanced makeup that enhances natural features rather than masking them. Every face tells a different story, and I take the time to tailor each look based on skin texture, tone, facial structure, and personal style. Whether the goal is soft and understated or polished and glamorous, my approach remains thoughtful and intentional.
               </p>
@@ -459,7 +459,7 @@ I focus on skin-first, well-balanced makeup that enhances natural features rathe
                 </div>
                 <div>
                   <h3 className="font-semibold text-lg mb-2">Email</h3>
-                  <p className="text-muted-foreground"><a href="mailto:hello@iqramakeup.com">hello@iqramakeup.com</a></p>
+                  <p className="text-muted-foreground"><a href="mailto:iqraarzoo.makeup@gmail.com">iqraarzoo.makeup@gmail.com</a></p>
                 </div>
               </CardContent>
             </Card>
