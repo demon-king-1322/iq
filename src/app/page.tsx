@@ -108,10 +108,10 @@ const services = [
 const portfolioItems = [
   { title: 'Bridal Elegance', category: 'Bridal', image: '/assets/images/img 1.jpg' },
   { title: 'Editorial Artistry', category: 'Editorial', image: '/assets/images/img 2.jpg' },
-  { title: 'Natural Beauty', category: 'Natural', image: '/assets/images/img 3.jpg' },
+  { title: 'Natural Beauty', category: 'Natural', image: '/assets/images/img 8.jpg' },
   { title: 'Glamour Night', category: 'Glam', image: '/assets/images/img 4.jpg' },
-  { title: 'Photoshoot Perfect', category: 'Photoshoot', image: '/assets/images/img 5.jpg' },
-  { title: 'Vintage Classic', category: 'Vintage', image: '/assets/images/img 7.jpg' },
+  { title: 'Photoshoot Perfect', category: 'Photoshoot', image: '/assets/images/img 9.jpg' },
+  { title: 'Vintage Classic', category: 'Vintage', image: '/assets/images/img 10.jpg' },
 ]
 
 export default function Home() {
@@ -414,7 +414,7 @@ I focus on skin-first, well-balanced makeup that enhances natural features rathe
               <div className="aspect-square bg-gradient-to-br from-primary/20 to-amber-500/20 rounded-3xl overflow-hidden">
                 <div className="w-full h-full flex items-center justify-center">
                   <img
-            src="/assets/images/pro.jpg"
+            src="/assets/images/IQ prof.jpg"
             alt="Professional Makeup Artist"
             className="w-full h-full object-cover"
           />
