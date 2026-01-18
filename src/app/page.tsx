@@ -10,108 +10,108 @@ const services = [
   { 
     name: 'Dewy makeup look', 
     description: 'Fresh, glowing, and radiant finish',
-    image: '/assets/images/service-dewy.jpg',
+    image: '/assets/images/dew makeup.PNG',
     details: 'Achieve that coveted glass-like glow with our dewy makeup look. Perfect for everyday wear and special occasions, this style focuses on luminous skin, subtle highlighting, and a fresh-faced appearance that lasts all day.'
   },
   { 
     name: 'Matte makeup look', 
     description: 'Sophisticated, velvety, and shine-free',
-    image: '/assets/images/service-matte.jpg',
+    image: '/assets/images/Matt makeup.PNG',
     details: 'Get a flawless, shine-free finish with our matte makeup look. Ideal for oily skin types and events with photography, this sophisticated style delivers smooth, velvety skin with long-lasting wear.'
   },
   { 
     name: 'Glam makeup look', 
     description: 'High-impact, dramatic, and stunning',
-    image: '/assets/images/service-glam.jpg',
+    image: '/assets/images/glam makeup.PNG',
     details: 'Turn heads with our glam makeup look. Featuring bold colors, dramatic contouring, and statement lips, this high-impact style is perfect for parties, galas, and events where you want to make a lasting impression.'
   },
   { 
     name: 'Glass makeup look', 
     description: 'Reflective, luminous, and modern',
-    image: '/assets/images/service-glass.jpg',
+    image: '/assets/images/glass makeup.PNG',
     details: 'The glass skin look is all about achieving an ultra-reflective, almost translucent complexion. Using advanced highlighting techniques and dewy products, we create a modern, luminous finish that catches light beautifully.'
   },
   { 
     name: 'Bridal makeup look', 
     description: 'Timeless elegance for your special day',
-    image: '/assets/images/service-bridal.jpg',
+    image: '/assets/images/Bridal makeup.PNG',
     details: 'Your wedding day deserves perfection. Our bridal makeup is designed to last through tears, dancing, and countless photos while maintaining a timeless, elegant look that enhances your natural beauty and complements your wedding theme.'
   },
   { 
     name: 'No-Makeup makeup look', 
     description: 'Natural enhancement, barely there',
-    image: '/assets/images/service-natural.jpg',
+    image: '/assets/images/no makeup makeup.jpg',
     details: 'The art of looking effortlessly beautiful. Our no-makeup look enhances your natural features with subtle techniques that appear invisible—perfect for everyday wear, job interviews, or when you want to look your best without looking "made up".'
   },
   { 
     name: 'Editorial/high-fashion makeup', 
     description: 'Bold, artistic, and runway-ready',
-    image: '/assets/images/service-editorial.jpg',
+    image: '/assets/images/high fashion.jpg',
     details: 'Push creative boundaries with our editorial makeup services. From avant-garde runway looks to high-fashion magazine spreads, we bring artistic vision to life with bold colors, geometric shapes, and innovative techniques.'
   },
   { 
     name: 'Photoshoot makeup', 
     description: 'Camera-ready and long-lasting',
-    image: '/assets/images/service-photoshoot.jpg',
+    image: '/assets/images/photoshoot makeup.jpg',
     details: 'Designed specifically for photography and HD video, our photoshoot makeup ensures you look flawless on camera. We use techniques and products that withstand studio lighting and appear perfect through any lens.'
   },
   { 
     name: 'Cultural or Traditional Makeup', 
     description: 'Authentic cultural beauty',
-    image: '/assets/images/service-cultural.jpg',
+    image: '/assets/images/cultural trad.jpg',
     details: 'Celebrate your heritage with authentic traditional makeup. Whether for weddings, festivals, or cultural ceremonies, we specialize in various cultural makeup styles including South Asian, Middle Eastern, and traditional techniques.'
   },
   { 
     name: 'Mature skin Makeup', 
     description: 'Enhancing natural beauty at any age',
-    image: '/assets/images/service-mature.jpg',
+    image: '/assets/images/mature skin look.jpg',
     details: 'Mature skin requires special care and technique. Our mature skin makeup focuses on hydration, luminosity, and lifting techniques that enhance your natural beauty while addressing fine lines and age spots.'
   },
   { 
     name: 'Bold makeup look', 
     description: 'Confident, vibrant, and eye-catching',
-    image: '/assets/images/service-bold.jpg',
+    image: '/assets/images/Bold look.jpg',
     details: 'Make a statement with bold makeup. Featuring vibrant eyeshadows, daring lip colors, and creative eyeliner designs, this look is for those who want to express confidence and individuality through their makeup.'
   },
   { 
     name: 'Vintage/Retro Makeup', 
     description: 'Classic looks from past decades',
-    image: '/assets/images/service-vintage.jpg',
+    image: '/assets/images/vintage retro.jpg',
     details: 'Transport yourself to another era with vintage makeup looks. From 1920s flapper elegance to 1950s Hollywood glamour and 1980s bold colors, we recreate authentic vintage styles for themed events and special occasions.'
   },
   { 
     name: 'HD makeup look', 
     description: 'Flawless in high definition',
-    image: '/assets/images/service-hd.jpg',
+    image: '/assets/images/HD makeup look.jpg',
     details: 'HD makeup is designed to look flawless under high-definition cameras and video. Using airbrush techniques and specialized products, we create a smooth, pore-less finish that looks perfect in 4K and beyond.'
   },
   { 
     name: 'Natural makeup look', 
     description: 'Effortless and everyday beautiful',
-    image: '/assets/images/service-natural.jpg',
+    image: '/assets/images/Natural look.jpg',
     details: 'Our natural makeup look enhances your features with subtle, neutral tones. Perfect for everyday wear, this style provides a polished appearance that looks like you woke up looking this good.'
   },
   { 
     name: 'Airbrush makeup look', 
     description: 'Professional, flawless finish',
-    image: '/assets/images/service-airbrush.jpg',
+    image: '/assets/images/Air brush.jpg',
     details: 'Airbrush makeup delivers a professional, flawless finish that lasts up to 24 hours. Using compressed air and specialized formulas, we create a lightweight, breathable look that photographs beautifully and withstands any conditions.'
   },
   { 
     name: 'Dramatic makeup look', 
     description: 'Striking and statement-making',
-    image: '/assets/images/service-dramatic.jpg',
+    image: '/assets/images/Dramatic.jpg',
     details: 'Make a powerful statement with dramatic makeup. This bold style features intense contouring, striking eye makeup, and powerful lip colors—perfect for Halloween, costume parties, and events where you want to transform completely.'
   },
 ]
 
 const portfolioItems = [
-  { title: 'Bridal Elegance', category: 'Bridal', image: '/assets/images/portfolio-bridal.jpg' },
-  { title: 'Editorial Artistry', category: 'Editorial', image: '/assets/images/portfolio-editorial.jpg' },
-  { title: 'Natural Beauty', category: 'Natural', image: '/assets/images/portfolio-natural.jpg' },
-  { title: 'Glamour Night', category: 'Glam', image: '/assets/images/portfolio-glam.jpg' },
-  { title: 'Photoshoot Perfect', category: 'Photoshoot', image: '/assets/images/portfolio-photoshoot.jpg' },
-  { title: 'Vintage Classic', category: 'Vintage', image: '/assets/images/portfolio-vintage.jpg' },
+  { title: 'Bridal Elegance', category: 'Bridal', image: '/assets/images/img 1.jpg' },
+  { title: 'Editorial Artistry', category: 'Editorial', image: '/assets/images/img 2.jpg' },
+  { title: 'Natural Beauty', category: 'Natural', image: '/assets/images/img 8.jpg' },
+  { title: 'Glamour Night', category: 'Glam', image: '/assets/images/img 4.jpg' },
+  { title: 'Photoshoot Perfect', category: 'Photoshoot', image: '/assets/images/img 9.jpg' },
+  { title: 'Vintage Classic', category: 'Vintage', image: '/assets/images/img 10.jpg' },
 ]
 
 export default function Home() {
@@ -153,7 +153,7 @@ export default function Home() {
           <div className="flex items-center justify-between h-16">
             <div className="flex items-center gap-2">
               <img
-                src="/assets/images/pro.jpg"
+                src="/assets/images/IQ prof.jpg"
                 alt="Professional Makeup Artist"
                 className="w-12 h-12 rounded-full object-cover"
               />
@@ -177,7 +177,7 @@ export default function Home() {
             </div>
             <WhatsAppButton 
               size="sm"
-              phoneNumber="1234567890"
+              phoneNumber="917619213992"
               message="Hi! I would like to book an appointment for makeup services."
             />
           </div>
@@ -219,7 +219,7 @@ export default function Home() {
               </Button>
               <WhatsAppButton 
                 size="lg"
-                phoneNumber="1234567890"
+                phoneNumber="7619213992"
                 message="Hi! I would like to book an appointment for makeup services."
                 className="bg-white hover:bg-white/90 text-primary text-base px-8 py-6"
               />
@@ -253,13 +253,14 @@ export default function Home() {
                   onClick={() => toggleService(index)}
                 >
                   <CardHeader>
-                    <div className="relative w-full h-40 rounded-lg overflow-hidden mb-4">
-                      <img
-                        src={service.image}
-                        alt={service.name}
-                        className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-110"
-                      />
-                    </div>
+                    <div className="relative w-full aspect-[4/5] rounded-lg overflow-hidden mb-4 bg-muted">
+  <img
+    src={service.image}
+    alt={service.name}
+    className="w-full h-full object-contain transition-transform duration-300 group-hover:scale-105"
+  />
+</div>
+
                     <CardTitle className="text-lg font-semibold group-hover:text-primary transition-colors">
                       {service.name}
                     </CardTitle>
@@ -323,7 +324,7 @@ export default function Home() {
                 <div className="flex justify-center">
                   <WhatsAppButton
                     size="lg"
-                    phoneNumber="1234567890"
+                    phoneNumber="7619213992"
                     message={getWhatsAppMessage()}
                   />
                 </div>
@@ -333,104 +334,40 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Portfolio Section */}
-      <section id="portfolio" className="py-20">
-        <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center max-w-3xl mx-auto mb-12">
-            <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-6">
-              Our Portfolio
-            </h2>
-            <p className="text-base sm:text-lg text-muted-foreground mb-8">
-              Explore our collection of stunning makeup looks and transformations
-            </p>
-            
-            {/* Category Filter */}
-            <div className="flex flex-wrap justify-center gap-3">
-              <Button
-                variant={selectedPortfolioCategory === null ? 'default' : 'outline'}
-                onClick={() => setSelectedPortfolioCategory(null)}
-                className="rounded-full"
-              >
-                All
-              </Button>
-              <Button
-                variant={selectedPortfolioCategory === 'Bridal' ? 'default' : 'outline'}
-                onClick={() => setSelectedPortfolioCategory('Bridal')}
-                className="rounded-full"
-              >
-                Bridal
-              </Button>
-              <Button
-                variant={selectedPortfolioCategory === 'Editorial' ? 'default' : 'outline'}
-                onClick={() => setSelectedPortfolioCategory('Editorial')}
-                className="rounded-full"
-              >
-                Editorial
-              </Button>
-              <Button
-                variant={selectedPortfolioCategory === 'Natural' ? 'default' : 'outline'}
-                onClick={() => setSelectedPortfolioCategory('Natural')}
-                className="rounded-full"
-              >
-                Natural
-              </Button>
-              <Button
-                variant={selectedPortfolioCategory === 'Glam' ? 'default' : 'outline'}
-                onClick={() => setSelectedPortfolioCategory('Glam')}
-                className="rounded-full"
-              >
-                Glam
-              </Button>
-              <Button
-                variant={selectedPortfolioCategory === 'Vintage' ? 'default' : 'outline'}
-                onClick={() => setSelectedPortfolioCategory('Vintage')}
-                className="rounded-full"
-              >
-                Vintage
-              </Button>
-            </div>
-          </div>
+   {/* Portfolio Section */}
+<section id="portfolio" className="py-20">
+  <div className="container mx-auto px-4 sm:px-6 lg:px-8">
 
-          {/* Portfolio Grid */}
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-            {filteredPortfolio.map((item, index) => (
-              <Card
-                key={index}
-                className="group overflow-hidden hover:shadow-xl transition-all duration-300 hover:-translate-y-1 cursor-pointer"
-              >
-                <div className="relative aspect-square overflow-hidden">
-                  <img
-                    src={item.image}
-                    alt={item.title}
-                    className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
-                  />
-                  <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                    <div className="absolute bottom-0 left-0 right-0 p-6 text-white">
-                      <h3 className="text-xl font-bold mb-2">{item.title}</h3>
-                      <p className="text-sm text-white/80">{item.category}</p>
-                    </div>
-                  </div>
-                </div>
-                <CardContent className="p-4">
-                  <div className="flex items-center justify-between">
-                    <div>
-                      <h3 className="font-semibold text-lg">{item.title}</h3>
-                      <p className="text-sm text-muted-foreground">{item.category}</p>
-                    </div>
-                    <Button
-                      variant="ghost"
-                      size="sm"
-                      className="text-primary hover:text-primary/80"
-                    >
-                      View
-                    </Button>
-                  </div>
-                </CardContent>
-              </Card>
-            ))}
+    {/* Heading */}
+    <div className="text-center max-w-3xl mx-auto mb-12">
+      <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-6">
+        Our Portfolio
+      </h2>
+      <p className="text-base sm:text-lg text-muted-foreground mb-8">
+        Explore our collection of stunning makeup looks and transformations
+      </p>
+    </div>
+
+    {/* Portfolio Grid */}
+    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+      {portfolioItems.map((item, index) => (
+        <Card
+          key={index}
+          className="group overflow-hidden hover:shadow-xl transition-all duration-300 hover:-translate-y-1 cursor-pointer"
+        >
+          <div className="relative aspect-[4/5] overflow-hidden bg-muted">
+            <img
+              src={item.image}
+              alt={item.title}
+              className="w-full h-full object-contain transition-transform duration-500 group-hover:scale-105"
+            />
           </div>
-        </div>
-      </section>
+        </Card>
+      ))}
+    </div>
+
+  </div>
+</section>
 
       {/* About Section */}
       <section id="about" className="py-20 bg-gradient-to-b from-muted/30 to-background">
@@ -443,7 +380,7 @@ export default function Home() {
               <p className="text-base sm:text-lg text-muted-foreground mb-6">
                 Professional makeup artist with 9 years of experience, and my work is deeply rooted in the belief that makeup should feel like you—only more confident.
 
-My journey into makeup wasn’t just about learning techniques; it was about understanding faces, skin, and the emotions that come with important moments. Over the years, I’ve learned that great makeup isn’t about following trends blindly—it’s about listening, observing, and creating a look that feels comfortable, effortless, and true to the person wearing it.
+My journey into makeup was not just about learning techniques; it was about understanding faces, skin, and the emotions that come with important moments. Over the years, I’ve learned that great makeup isn’t about following trends blindly—it’s about listening, observing, and creating a look that feels comfortable, effortless, and true to the person wearing it.
 
 I focus on skin-first, well-balanced makeup that enhances natural features rather than masking them. Every face tells a different story, and I take the time to tailor each look based on skin texture, tone, facial structure, and personal style. Whether the goal is soft and understated or polished and glamorous, my approach remains thoughtful and intentional.
               </p>
@@ -477,7 +414,7 @@ I focus on skin-first, well-balanced makeup that enhances natural features rathe
               <div className="aspect-square bg-gradient-to-br from-primary/20 to-amber-500/20 rounded-3xl overflow-hidden">
                 <div className="w-full h-full flex items-center justify-center">
                   <img
-            src="/assets/images/pro.jpg"
+            src="/assets/images/IQ prof.jpg"
             alt="Professional Makeup Artist"
             className="w-full h-full object-cover"
           />
@@ -510,7 +447,7 @@ I focus on skin-first, well-balanced makeup that enhances natural features rathe
                 </div>
                 <div>
                   <h3 className="font-semibold text-lg mb-2">Phone</h3>
-                  <p className="text-muted-foreground">+1 234 567 890</p>
+                  <p className="text-muted-foreground">+91 7619213992</p>
                 </div>
               </CardContent>
             </Card>
@@ -522,7 +459,7 @@ I focus on skin-first, well-balanced makeup that enhances natural features rathe
                 </div>
                 <div>
                   <h3 className="font-semibold text-lg mb-2">Email</h3>
-                  <p className="text-muted-foreground"><a href="mailto:hello@iqramakeup.com">hello@iqramakeup.com</a></p>
+                  <p className="text-muted-foreground"><a href="mailto:iqraarzoo.makeup@gmail.com">iqraarzoo.makeup@gmail.com</a></p>
                 </div>
               </CardContent>
             </Card>
@@ -552,7 +489,7 @@ I focus on skin-first, well-balanced makeup that enhances natural features rathe
                 <div className="flex justify-center">
                   <WhatsAppButton
                     size="lg"
-                    phoneNumber="1234567890"
+                    phoneNumber="7619213992"
                     message={getWhatsAppMessage()}
                   />
                 </div>
